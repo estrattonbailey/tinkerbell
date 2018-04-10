@@ -1,5 +1,5 @@
 # tinkerbell
-Tiny tweeing library that sparkles. **200 bytes gzipped.**
+Tiny tweening library that sparkles. **200 bytes gzipped.**
 
 ## Install
 ```
