@@ -1,0 +1,30 @@
+{
+  "name": "tinkerbell",
+  "version": "0.0.1",
+  "description": "Tiny tweeing library that sparkles.",
+  "source": "index.js",
+  "module": "dist/tinkerbell.es.js",
+  "main": "dist/tinkerbell.js",
+  "umd:main": "dist/tinkerbell.umd.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "microbundle build",
+    "watch": "microbundle watch",
+    "publish": "npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/estrattonbailey/tinkerbell.git"
+  },
+  "author": "estrattonbailey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/estrattonbailey/tinkerbell/issues"
+  },
+  "homepage": "https://github.com/estrattonbailey/tinkerbell#readme",
+  "devDependencies": {
+    "microbundle": "^0.4.4"
+  }
+}

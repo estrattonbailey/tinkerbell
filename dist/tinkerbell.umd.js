@@ -1,0 +1,2 @@
+!function(n,e){"object"==typeof exports&&"undefined"!=typeof module?module.exports=e():"function"==typeof define&&define.amd?define(e):n.tinkerbell=e()}(this,function(){return function(n,e,t,o){var i=e-n;return function(r,u){var f,a,c,d=Date.now();return a=function a(m){return requestAnimationFrame(function(m){c=Math.round(o(Date.now()-d,n,i,t)),(e<n?c>e:c<e)&&!f?(a(),r(c)):u&&u()})}(),function(){cancelAnimationFrame(a),f=!0}}}});
+//# sourceMappingURL=tinkerbell.umd.js.map
